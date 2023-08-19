@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav>
+        <a href="#red">Books</a>
+    <a href="#white">Register</a>
+    </nav id="red">
+    <h2>Books</h2>
+    <table class="book-table">
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+          <td>001</td>
+          <td>
+            Harry Potter and the Sorcerer's Stone
+            <table>
+              <tr>
+                <th>Publication Date</th>
+                <th>Page Count</th>
+                <th>ISBN</th>
+              </tr>
+              <tr>
+                <td>June 26, 1997</td>
+                <td>320</td>
+                <td>978-0590353427</td>
+              </tr>
+            </table>
+          </td>
+          <td>J.K. Rowling</td>
+          <td>Fantasy</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>
+            To Kill a Mockingbird
+            <table>
+              <tr>
+                <th>Publication Date</th>
+                <th>Page Count</th>
+                <th>ISBN</th>
+              </tr>
+              <tr>
+                <td>July 11, 1960</td>
+                <td>336</td>
+                <td>978-0061120084</td>
+              </tr>
+            </table>
+          </td>
+          <td>Harper Lee</td>
+          <td>Classic</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>
+            The Great Gatsby
+            <table>
+              <tr>
+                <th>Publication Date</th>
+                <th>Page Count</th>
+                <th>ISBN</th>
+              </tr>
+              <tr>
+                <td>April 10, 1925</td>
+                <td>180</td>
+                <td>978-0743273565</td>
+              </tr>
+            </table>
+          </td>
+          <td>F. Scott Fitzgerald</td>
+          <td>Classic</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>004</td>
+          <td>
+            The Hobbit
+            <table>
+              <tr>
+                <th>Publication Date</th>
+                <th>Page Count</th>
+                <th>ISBN</th>
+              </tr>
+              <tr>
+                <td>September 21, 1937</td>
+                <td>310</td>
+                <td>978-0618260300</td>
+              </tr>
+            </table>
+          </td>
+          <td>J.R.R. Tolkien</td>
+          <td>Fantasy</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td>
+            Pride and Prejudice
+            <table>
+              <tr>
+                <th>Publication Date</th>
+                <th>Page Count</th>
+                <th>ISBN</th>
+              </tr>
+              <tr>
+                <td>January 28, 1813</td>
+                <td>279</td>
+                <td>978-0486284736</td>
+              </tr>
+            </table>
+          </td>
+          <td>Jane Austen</td>
+          <td>Classic</td>
+          <td>Available</td>
+        </tr>
+      </table>
+      <section id="white">
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="date-of-birth">Date of Birth:</label>
+                    <input type="date" id="date-of-birth" name="date-of-birth" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="5" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div> </section>
+    
+</body>
+</html>
